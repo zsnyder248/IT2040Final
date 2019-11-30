@@ -1,0 +1,7 @@
+C:\Users\blues\Desktop\IT2040Final\MusicPlaylistAnalyzer\MusicPlaylistAnalyzer\MusicPlaylistAnalyzer\obj\Release\MusicPlaylistAnalyzer.csprojAssemblyReference.cache
+C:\Users\blues\Desktop\IT2040Final\MusicPlaylistAnalyzer\MusicPlaylistAnalyzer\MusicPlaylistAnalyzer\obj\Release\MusicPlaylistAnalyzer.csproj.CoreCompileInputs.cache
+C:\Users\blues\Desktop\IT2040Final\MusicPlaylistAnalyzer\MusicPlaylistAnalyzer\MusicPlaylistAnalyzer\bin\Release\MusicPlaylistAnalyzer.exe.config
+C:\Users\blues\Desktop\IT2040Final\MusicPlaylistAnalyzer\MusicPlaylistAnalyzer\MusicPlaylistAnalyzer\bin\Release\MusicPlaylistAnalyzer.exe
+C:\Users\blues\Desktop\IT2040Final\MusicPlaylistAnalyzer\MusicPlaylistAnalyzer\MusicPlaylistAnalyzer\bin\Release\MusicPlaylistAnalyzer.pdb
+C:\Users\blues\Desktop\IT2040Final\MusicPlaylistAnalyzer\MusicPlaylistAnalyzer\MusicPlaylistAnalyzer\obj\Release\MusicPlaylistAnalyzer.exe
+C:\Users\blues\Desktop\IT2040Final\MusicPlaylistAnalyzer\MusicPlaylistAnalyzer\MusicPlaylistAnalyzer\obj\Release\MusicPlaylistAnalyzer.pdb

@@ -11,9 +11,9 @@ namespace MusicPlaylistAnalyzer
     {
         public static List<Info> GetData(string csvFile)
         {
-            List<Info> crimeStatsList = new List<Info>();
+            List<Info> musicInfoList = new List<Info>();
 
-            int NumOfData = 11;
+            int NumOfData = 8;
             try
             {
                 using (StreamReader file = new StreamReader(csvFile))
@@ -25,7 +25,7 @@ namespace MusicPlaylistAnalyzer
                         NumOfLines++;
                         if (NumOfLines > 1)
                         {
-                            var data = row.Split(',');
+                            var data = row.Split('\t');
                             if (data.Length != NumOfData)
                             {
                                 throw new Exception("Records doesn't contain the correct amount of data elements");
@@ -40,8 +40,8 @@ namespace MusicPlaylistAnalyzer
                                 int time = Int32.Parse(data[5]);
                                 int year = Int32.Parse(data[6]);
                                 int plays = Int32.Parse(data[7]);
-                                Info crimeStats = new Info(name, artist, album, genre, size, time, year, plays);
-                                crimeStatsList.Add(crimeStats);
+                                Info musicInfo = new Info(name, artist, album, genre, size, time, year, plays);
+                                musicInfoList.Add(musicInfo);
                             }
                             catch (FormatException)
                             {
@@ -55,7 +55,7 @@ namespace MusicPlaylistAnalyzer
             {
                 throw new Exception("Loading info Exception: " + e.Message);
             }
-                return crimeStatsList;
+                return musicInfoList;
             }
     }
 }
