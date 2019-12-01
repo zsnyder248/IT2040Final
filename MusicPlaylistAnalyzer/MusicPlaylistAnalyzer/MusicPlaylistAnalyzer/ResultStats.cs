@@ -25,7 +25,7 @@ namespace MusicPlaylistAnalyzer
             {
                 num++;
             }
-            result += num;
+            result += num + "\n";
 
             result += "\nNumber of Hip-Hop/Rap songs: ";
             var third = from musicInfo in musicInfoList where musicInfo.Genre == "Hip-Hop/Rap" select musicInfo.Genre;
@@ -34,9 +34,9 @@ namespace MusicPlaylistAnalyzer
             {
                 num++;
             }
-            result += num;
+            result += num + "\n";
 
-            result += "\n\nSongs from the album Welcome to the Fishbowl: \n";
+            result += "\nSongs from the album Welcome to the Fishbowl: \n";
             var fourth = from musicInfo in musicInfoList where musicInfo.Album == "Welcome to the Fishbowl" select musicInfo;
             foreach (var record in fourth)
             {

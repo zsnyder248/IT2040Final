@@ -17,14 +17,14 @@ namespace MusicPlaylistAnalyzer
                 System.Environment.Exit(0);
             }
 
-            string csvFile = args[0];
+            string file = args[0];
             string resultFile = args[1];
 
 
             List<Info> musicList = null;
             try
             {
-                musicList = GetMusicInfo.GetData(csvFile);
+                musicList = GetMusicInfo.GetData(file);
             }
             catch (Exception e)
             {
