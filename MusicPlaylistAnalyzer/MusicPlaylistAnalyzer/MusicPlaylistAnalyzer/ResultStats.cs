@@ -64,17 +64,6 @@ namespace MusicPlaylistAnalyzer
                 result += "Name: " + record.Name + ", Artist: " + record.Artist + ", Album: " + record.Album + ", Genre: " + record.Genre + ", Size: " + record.Size + ", Time: " + record.Time + ", Year: " + record.Year + ", Plays: " + record.Plays + "\n";
             }
             return result;
-
-            /*
-            result += "\nRobberies per year > 500000: ";
-            var records = from crimeStats in crimeStatsList where crimeStats.Robbery > 500000 select crimeStats;
-            foreach (var record in records)
-            {
-                result += record.Year + " = " + record.Robbery + ",";
-            }
-            result.TrimEnd(',');
-            return result;
-            */
         }
     }
 }
